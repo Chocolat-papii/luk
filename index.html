@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Level Up Kulture | We'll Be Back Soon</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background: linear-gradient(135deg, #6a0dad, #d3d3d3);
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3rem;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+    }
+
+    .contact {
+      font-size: 1rem;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    /* Scrolling Banner */
+    .scroll-banner {
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .scroll-text {
+      display: inline-block;
+      white-space: nowrap;
+      font-family: 'Roboto Slab', serif;
+      font-size: 1.5rem;
+      color: #fff;
+      animation: scroll 10s linear infinite;
+    }
+
+    @keyframes scroll {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scroll-banner">
+    <div class="scroll-text">Level Up Kulture - LUK - We Are Risen - WAR - </div>
+  </div>
+
+  <div class="container">
+    <h1>We'll Be Back Soon!</h1>
+    <p>Our website is currently under maintenance. We’re working hard to level up your experience. Stay tuned!</p>
+    <p class="contact">For any inquiries, please email us at <a href="mailto:info@levelupkulture.com" style="color:#fff; text-decoration: underline;">info@levelupkulture.com</a></p>
+  </div>
+
+</body>
+</html>
