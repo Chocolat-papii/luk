@@ -100,6 +100,42 @@
         transform: translateX(-100%);
       }
     }
+
+  .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between the icons */
+}
+
+.circle-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.x {
+  background-color: #1DA1F2; /* X (formerly Twitter) blue */
+}
+
+.fb {
+  background-color: #1877F2; /* Facebook blue */
+}
+
+.ig {
+  background: radial-gradient(circle at 30% 30%, #F58529, #DD2A7B, #8134AF, #515BD4); /* Instagram gradient */
+}
+
+.circle-link:hover {
+  opacity: 0.8; /* Add hover effect */
+}
+
   </style>
 </head>
 <body>
@@ -114,6 +150,13 @@
     <p>Our website is currently under maintenance. We’re working hard to level up your experience. Stay tuned!</p>
     <p class="contact">For any inquiries, please email us at <a href="mailto:info@levelupkulture.co.za" style="color:#fff; text-decoration: underline;">info@levelupkulture.com</a></p>
   </div>
+  <div class="social-media">
+    <p>Follow us on social media</p>
+  <a href="https://x.com/levelup_k" class="circle-link x">X</a>
+  <a href="https://facebook.com/LevelUpKulture" class="circle-link fb">F</a>
+  <a href="https://www.instagram.com/levelup_kulture/" class="circle-link ig">IG</a>
+</div>
+
 
 </body>
 </html>
